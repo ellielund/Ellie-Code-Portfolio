@@ -27,10 +27,10 @@ g++ -c -Wall -ansi -pedantic -std=c++20 graph.cpp
 g++ -o proj main.o graph.o
 ./proj
 ```
-Example Input:
-Enter a filename for graph data: cities1.txt
-What is the departure/arrival cost (0 for no cost): 10
-Departure Airport: lax
-Destination Airport: dfw
-The minimum cost from lax to dfw is 528
-lax->stl->ord->dfw
+Example Input:  
+Enter a filename for graph data: cities1.txt  
+What is the departure/arrival cost (0 for no cost): 10  
+Departure Airport: lax  
+Destination Airport: dfw  
+The minimum cost from lax to dfw is 528  
+lax->stl->ord->dfw  
